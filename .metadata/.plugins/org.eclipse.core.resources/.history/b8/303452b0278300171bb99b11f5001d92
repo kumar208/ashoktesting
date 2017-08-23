@@ -1,0 +1,7 @@
+<suite name="data driven Testing">
+<test name="NewToursRegistrationTest">
+<classes>
+ <class name="dataDrivenTesting.NewToursRegistration"/>
+</classes>
+</test>
+</suite>

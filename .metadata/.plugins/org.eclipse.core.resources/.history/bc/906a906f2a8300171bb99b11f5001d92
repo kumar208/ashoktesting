@@ -1,0 +1,24 @@
+<suite name="data driven Testing" parallel="tests">
+
+<test name="NewToursRegistrationTest">
+<classes>
+ <class name="dataDrivenTesting.NewToursRegistration"/>
+</classes>
+</test>
+
+
+<test name="NewToursLogInTest">
+<classes>
+ <class name="keyWord.KeyWord_NewToursLogIn"/>
+</classes>
+</test>
+
+<test name="">
+<classes>
+ <class name="faceBook.FaceBookTesting"/>
+</classes>
+</test>
+
+
+
+</suite>

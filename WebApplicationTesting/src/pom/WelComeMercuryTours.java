@@ -1,0 +1,37 @@
+package pom;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class WelComeMercuryTours
+{
+
+	//WebElement yourDestination=driver.findElement(By.linkText("your desination"));
+	
+	@FindBy(linkText="your destination")
+	WebElement yourDestination;
+	
+	public void Destination()
+	{
+		yourDestination.click();
+	}
+	
+	@FindBy(linkText="REGISTER")
+	WebElement register;
+	
+	public void Registerr()
+	{
+		register.click();
+	}
+	
+	@FindBy(linkText="Salon Travel")
+	WebElement salonTravel;
+
+	public void Salon()
+	{
+		salonTravel.click();
+	}
+	
+	
+	
+}

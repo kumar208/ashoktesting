@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [data driven Testing]" parallel="tests">
+  <test name="NewToursRegistrationTest(failed)" parallel="tests">
+    <classes>
+      <class name="dataDrivenTesting.NewToursRegistration">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+          <include name="NewUserRegistration"/>
+        </methods>
+      </class> <!-- dataDrivenTesting.NewToursRegistration -->
+      <class name="keyWord.KeyWord_NewToursLogIn">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- keyWord.KeyWord_NewToursLogIn -->
+    </classes>
+  </test> <!-- NewToursRegistrationTest(failed) -->
+  <test name="NewToursLogInTest(failed)" parallel="tests">
+    <classes>
+      <class name="dataDrivenTesting.NewToursRegistration">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- dataDrivenTesting.NewToursRegistration -->
+      <class name="keyWord.KeyWord_NewToursLogIn">
+        <methods>
+          <include name="setUp"/>
+          <include name="LogIn"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- keyWord.KeyWord_NewToursLogIn -->
+    </classes>
+  </test> <!-- NewToursLogInTest(failed) -->
+</suite> <!-- Failed suite [data driven Testing] -->
